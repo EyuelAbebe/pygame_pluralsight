@@ -1,7 +1,7 @@
 __author__ = 'eyuelabebe'
 
 
-class GameObject:
+class GameObject(object):
 
     def __init__(self, position, size, sprite):
         self.__position = position

@@ -1,7 +1,7 @@
 __author__ = 'eyuelabebe'
 
 
-class HighScore:
+class HighScore(object):
 
     def __init__(self):
         pass

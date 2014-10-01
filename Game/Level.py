@@ -1,7 +1,7 @@
 __author__ = 'eyuelabebe'
 
 
-class Level:
+class Level(object):
 
     def __init__(self, game):
         self.__game = game

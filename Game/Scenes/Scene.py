@@ -1,7 +1,7 @@
 __author__ = 'eyuelabebe'
 
 
-class Scene:
+class Scene(object):
 
     def __init__(self, game):
         self.__game = game

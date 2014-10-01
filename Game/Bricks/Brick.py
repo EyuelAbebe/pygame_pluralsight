@@ -4,7 +4,7 @@ from Game.Shared import GameObject
 from Game.Shared import GameConstants
 
 
-class Brick(GameObject):
+class Brick(GameObject, object):
 
     def __init__(self, position, sprite, game):
         self.__game = game

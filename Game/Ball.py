@@ -3,7 +3,7 @@ __author__ = 'eyuelabebe'
 from Game.Shared import *
 
 
-class Ball(GameObject):
+class Ball(GameObject, object):
 
     def __init__(self, position, sprite, game):
         self.__game = game
